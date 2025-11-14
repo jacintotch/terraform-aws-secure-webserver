@@ -1,7 +1,13 @@
-# terraform-aws-secure-webserver
 
-├── main.tf          # Main infrastructure definition
-├── variables.tf      # Input variables
-├── outputs.tf        # Output values
-├── user_data.sh      # Script to setup the web server
-└── README.md         # Project documentation
+# Secure AWS Web Server Deployment with Terraform
+
+This project demonstrates Infrastructure as Code (IaC) principles to deploy a secure web server on AWS using Terraform.
+
+## 🛡️ Security Features Implemented
+
+- **Custom VPC**: Isolated network environment
+- **Minimal Security Groups**: Only necessary ports (SSH, HTTP) open
+- **Structured Networking**: Public/private subnet design (foundation for scaling)
+- **Least Privilege Principle**: Security groups follow minimal required access
+
+## 📁 Project Structure
