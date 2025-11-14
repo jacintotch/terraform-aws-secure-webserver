@@ -9,5 +9,3 @@ This project demonstrates Infrastructure as Code (IaC) principles to deploy a se
 - **Minimal Security Groups**: Only necessary ports (SSH, HTTP) open
 - **Structured Networking**: Public/private subnet design (foundation for scaling)
 - **Least Privilege Principle**: Security groups follow minimal required access
-
-## 📁 Project Structure
